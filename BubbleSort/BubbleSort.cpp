@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 {
     if (argc < 3)
     {
-        cerr << "Usage: ./BubbleSort input.txt output.txt\n";
+        cerr << "Usage: ./BubbleSort <input.txt> <output.txt>\n";
         return 1;
     }
 
